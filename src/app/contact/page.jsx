@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from './page.module.css';
 
-const About = () => {
+const Contact = () => {
   return (
-    <div>About</div>
+    <div className={styles.container}>Contact</div>
   )
 }
 
-export default About
+export default Contact
