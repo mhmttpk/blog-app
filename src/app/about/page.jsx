@@ -7,11 +7,13 @@ const Contact = () => {
   return (
     <div className={styles.container}>
         <div className={styles.imgContainer}>
-            <Image 
-                src="https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg"
-                fill={true} 
-                alt=''
-            />
+            <div className={styles.aboutImg}>
+                <Image 
+                    src="https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg"
+                    fill={true} 
+                    alt='About Background'
+                />
+            </div>
             <div className={styles.imgText}>
                 <h1 className={styles.imgTitle}>Full Stack Developer</h1>
                 <h2 className={styles.imgDescription}>Handling NodeJS and ReactJS web applications</h2>
