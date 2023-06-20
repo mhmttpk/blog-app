@@ -8,7 +8,7 @@ const Contact = () => {
     <div className={styles.container}>
         <div className={styles.imgContainer}>
             <Image 
-                src="https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg" 
+                src="https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg"
                 fill={true} 
                 alt=''
             />
