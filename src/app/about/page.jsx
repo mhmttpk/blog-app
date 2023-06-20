@@ -29,6 +29,10 @@ const Contact = () => {
                     <br />
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                     Labore porro, consequuntur molestias laborum officiis voluptas.
+                    <br />
+                    <br />
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Repellat perspiciatis minima rem similique porro vitae.
                 </p>
             </div>
             <div className={styles.item}>
@@ -37,6 +41,12 @@ const Contact = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Tempora alias ut vero. Dignissimos natus culpa officiis 
                     quod iste praesentium adipisci.
+                    <br />
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Perferendis blanditiis fugit, nesciunt asperiores ea iste.
+                    <br />
+                    <br />
+                    - Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 </p>
                 <Button url="/contact" text="Contact"/>
             </div>
