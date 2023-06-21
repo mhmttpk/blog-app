@@ -23,6 +23,10 @@
     background-size: cover !important;
 }
 
+.item:hover {
+    border-color: #53c28b;
+}
+
 .item:nth-child(1){
     background: url("/data.png");
 }
@@ -42,6 +46,7 @@
     font-size: 40px;
     font-weight: bold;
 }
+
 
 .item:hover .title {
     color: #53c28b;
